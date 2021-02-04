@@ -1,10 +1,13 @@
 package pl.dsoltysiuk.carinfoapi.dto;
 
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class CarDto {
-    private Long carId;
     private String brand;
     private String model;
     private Short yearProduction;

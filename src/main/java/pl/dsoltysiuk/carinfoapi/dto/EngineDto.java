@@ -1,11 +1,15 @@
 package pl.dsoltysiuk.carinfoapi.dto;
 
-import pl.dsoltysiuk.carinfoapi.model.Engine;
+import lombok.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class EngineDto {
-    private Long engineID;
-    private String engineCodename;
-    private Engine.Fuel fuel;
+    private String codename;
+    private String fuel;
     private Short capacity;
     private Short horsePower;
     private Short torque;

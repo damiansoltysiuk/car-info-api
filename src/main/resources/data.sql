@@ -1602,8 +1602,9 @@ INSERT INTO model (brand_id, name) VALUES (69, '312');
 INSERT INTO model (brand_id, name) VALUES (69, '313');
 INSERT INTO model (brand_id, name) VALUES (69, '353');
 
-INSERT INTO engine (fuel, capacity, horse_power, torque) VALUES ('BENZINE', 2000, 222, 200);
-INSERT INTO engine (fuel, capacity, horse_power, torque) VALUES ('BENZINE', 2000, 136, 170);
+INSERT INTO engine (codename, fuel, capacity, horse_power, torque) VALUES ('RFN','BENZINE', 2000, 222, 200);
+INSERT INTO engine (codename, fuel, capacity, horse_power, torque) VALUES ('RFN','BENZINE', 2000, 136, 170);
+INSERT INTO engine (codename, fuel, capacity, horse_power, torque) VALUES ('BAM','BENZINE', 1781, 222, 280);
 
 INSERT INTO user (email, password) VALUES ('damian@soltysiuk.pl', 'soltysiuk');
 
